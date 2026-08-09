@@ -6,16 +6,21 @@ import "./App.css";
 function App() {
   // let foodItems = [];
   let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
-  // let EmptyMessage =
-  //   foodItems.length === 0 ? <h1>I am Still hungry.</h1> : null;
+  let textToShow = "Food item Entered by user";
+
+  const handleOnChange = (event) => {
+    console.log(event.target.value);
+    textToShow = event.target.value;
+  };
+
   return (
     <>
       <Container>
         <h1 className="food-heading">Healthy Food</h1>
-        <FoodInput></FoodInput>
         <ErrorMessage items={foodItems}></ErrorMessage>
+        <FoodInput handleOnChange={handleOnChange}></FoodInput>
+        <p>{textToShow}</p>
         <FoodItems items={foodItems}></FoodItems>
-      
       </Container>
 
       {/* <Container>
