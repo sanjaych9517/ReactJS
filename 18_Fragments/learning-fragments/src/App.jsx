@@ -3,14 +3,17 @@ import ErrorMessage from "./components/ErrorMessage";
 import Container from "./components/Container";
 import FoodInput from "./components/FoodInput";
 import "./App.css";
+import { useState } from "react";
+
 function App() {
-  // let foodItems = [];
   let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
-  let textToShow = "Food item Entered by user";
+
+  let [textToShow, setTextState] = useState();
+  
 
   const handleOnChange = (event) => {
     console.log(event.target.value);
-    textToShow = event.target.value;
+    setTextState(event.target.value);
   };
 
   return (
