@@ -6,32 +6,28 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
+  let [foodItems, setFoodItems] = useState([]);
 
-  let [textToShow, setTextState] = useState();
-  
-
-  const handleOnChange = (event) => {
-    console.log(event.target.value);
-    setTextState(event.target.value);
+  const onKeyDown = (event) => {
+    if (event.key === "Enter") {
+      let newFoodItem = event.target.value;
+      event.target.value = "";
+      let newFoodItems = [...foodItems, newFoodItem];
+      setFoodItems(newFoodItems);
+      console.log("food item entered by " + newFoodItem);
+    }
   };
 
   return (
     <>
       <Container>
         <h1 className="food-heading">Healthy Food</h1>
+        <FoodInput handleKeyDown={onKeyDown}></FoodInput>
         <ErrorMessage items={foodItems}></ErrorMessage>
-        <FoodInput handleOnChange={handleOnChange}></FoodInput>
-        <p>{textToShow}</p>
         <FoodItems items={foodItems}></FoodItems>
       </Container>
 
-      {/* <Container>
-        <p>
-          Above is the list healthy food that are good for your health and well
-          beinf
-        </p>
-      </Container> */}
+      
     </>
   );
 }
