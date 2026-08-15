@@ -5,7 +5,8 @@ const FoodItems = ({ items }) => {
 
 let [activeItem, setActiveItems] = useState([]);
 let onBuyButton = (item, event) =>{
-
+let newItems = [...activeItem, item]
+setActiveItems(newItems);
 }
 
   return (
