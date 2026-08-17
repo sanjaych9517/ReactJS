@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./component/Header";
 import Fotter from "./component/Fotter";
 import Sidebar from "./component/Sidebar";
-
 import CreatePost from "./component/CreatePost";
+import PostList from "./component/PostList";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Sidebar></Sidebar>
       <div className="content">
         <Header></Header>
-       <CreatePost></CreatePost>
+        <CreatePost></CreatePost>
+        <PostList></PostList>
         <Fotter></Fotter>
       </div>
     </div>
