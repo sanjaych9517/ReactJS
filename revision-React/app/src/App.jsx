@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './navbar'
+import './App.css'
 
 const App = () => {
+
+  const [count, setCount] =  useState(0); 
+  
+function increment(){
+   setCount(count + 2);
+  
+}
+
   return (
     <div>
-      <Navbar title="name" link="google.com"/>
-       <Navbar title="Sanjay" link="amazon.com"/>
-        <Navbar number={4} />
-        <Navbar title="kapoor ji"/>
+      <button onClick={increment}>Increment</button>
+     {count}
     </div>
   )
 }
