@@ -1,3 +1,0 @@
-const ErrorMessage = () => {
-  return;
-};
