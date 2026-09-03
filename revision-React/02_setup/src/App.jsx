@@ -5,7 +5,7 @@ function App() {
   
 
   return (
-   <h1>Hellow worlss</h1>
+   <h1>Hellow  worlss</h1>
   )
 }
 
