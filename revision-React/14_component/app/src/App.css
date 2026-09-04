@@ -1,0 +1,18 @@
+.card{
+  padding: 15px;
+  border-radius: 20px;
+  background-color: lightgreen;
+  width: 100px;
+  color: black;
+   /* margin-top: 200px; */
+   margin-left: 350px;
+
+}
+ 
+.layout{
+  display: flex;
+ justify-content: space-between;
+   flex-direction: column;
+  gap: 1.5rem;
+
+}
