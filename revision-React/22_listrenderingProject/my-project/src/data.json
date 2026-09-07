@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "OPPO K13x 5G",
+    "brand": "OPPO",
+    "originalPrice": 17999,
+    "discountedPrice": 13953,
+    "discountPercent": "22 % off",
+    "category": "Smartphone",
+    "rating": 4.5,
+    "ratingsCount": 13953,
+    "reviewsCount": 1243,
+    "details": [
+      "4 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+      "16.94 cm (6.67 inch) HD+ Display",
+      "50MP + 2MP | 8MP Front Camera",
+      "6000 mAh Battery",
+      "MediaTek Dimensity 6300 Processor",
+      "1 Year Manufacturer Warranty + 6 Months Accessories Warranty"
+    ],
+    "exchangeOffer": "Up to ₹9,000 Off on Exchange",
+    "bankOffer": "Extra ₹1,000 Off on Bank Cards",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&h=800&q=90"
+  },
+  {
+    "id": 2,
+    "name": "Redmi Note 13 5G",
+    "brand": "Xiaomi",
+    "originalPrice": 18999,
+    "discountedPrice": 14999,
+    "discountPercent": "21 % off",
+    "category": "Smartphone",
+    "rating": 4.4,
+    "ratingsCount": 27321,
+    "reviewsCount": 2104,
+    "details": [
+      "6 GB RAM | 128 GB ROM",
+      "16.94 cm (6.67 inch) Full HD+ AMOLED Display",
+      "50MP + 8MP | 16MP Front Camera",
+      "5000 mAh Battery with 33W Fast Charging",
+      "MediaTek Dimensity 6100+ Processor",
+      "1 Year Manufacturer Warranty"
+    ],
+    "exchangeOffer": "Up to ₹10,000 Off on Exchange",
+    "bankOffer": "Extra ₹1,000 Off with SBI Cards",
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=600&h=800&q=90"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy M14 5G",
+    "brand": "Samsung",
+    "originalPrice": 16999,
+    "discountedPrice": 12499,
+    "discountPercent": "26 % off",
+    "category": "Smartphone",
+    "rating": 4.3,
+    "ratingsCount": 19876,
+    "reviewsCount": 1089,
+    "details": [
+      "6 GB RAM | 128 GB ROM",
+      "16.76 cm (6.6 inch) Full HD+ Display",
+      "50MP + 2MP + 2MP Rear Camera",
+      "13MP Front Camera",
+      "6000 mAh Battery | 25W Fast Charging",
+      "Exynos 1330 Processor",
+      "1 Year Manufacturer Warranty"
+    ],
+    "exchangeOffer": "Up to ₹8,000 Off on Exchange",
+    "bankOffer": "Extra ₹750 Off with Bank Cards",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=600&h=800&q=90"
+  }
+]
