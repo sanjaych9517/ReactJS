@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 function App() {
-  const [gender, setGender] = useState('');
-console.log(gender);
+  const [gender, setGender] = useState("");
+  console.log(gender);
   return (
     <>
       {/* MALE */}
