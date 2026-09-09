@@ -33,8 +33,12 @@ const App = () => {
       method: "post",
       data: formDetails,
     });
+  setFormsDetails({
+    name: "",
+    age: "",
+  });
     fetchData();
-    console.log(responce);
+   
   };
 
   useEffect(() => {
@@ -70,6 +74,7 @@ const App = () => {
           >
             <p>Name: {userDetails.name}</p>
             <p>Age: {userDetails.age}</p>
+            <button>Edit</button>
           </div>
         );
       })}
