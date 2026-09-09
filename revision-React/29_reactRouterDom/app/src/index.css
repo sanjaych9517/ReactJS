@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+
+p {
+  margin: 0;
+}
+ 
+a:hover{
+color: red;
+}

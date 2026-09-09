@@ -1,0 +1,9 @@
+.page{
+  background-color: #000;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+color: azure; 
+font-size: 2em;
+}
