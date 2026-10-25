@@ -1,0 +1,26 @@
+import "./App.css";
+import Alpha from "./comonents/Alpha";
+import withBorder from "./hoc/withBorder";
+import withCardLook from "./hoc/withCardLook";
+
+import Beta from "./comonents/Beta";
+
+function App() {
+  const AlphaWithCardLook = withCardLook(Alpha);
+  const BetaWithCardLook = withCardLook(Beta);
+
+  const AlphaWithBorder = withBorder(Alpha);
+  const BetaWithBorder = withBorder(Beta);
+
+  return (
+    <>
+      <AlphaWithCardLook user="kapoor" />
+      <BetaWithCardLook />
+
+      <AlphaWithBorder user="kapoor" />
+      <BetaWithBorder />
+    </>
+  );
+}
+
+export default App;
